@@ -1,0 +1,288 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styles for Banner */
+
+header {
+    width: 100%;
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 90vh;
+}
+
+.banner-content {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content>div {
+    flex: 1;
+}
+
+.banner {
+    text-align: right;
+    padding-right: 140px;
+}
+
+.banner-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-description {
+    color: #444343;
+    padding-right: 12px;
+    margin: 25px 0;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 25px;
+    background: #F15B22;
+    border: none;
+}
+
+/* Styles for failures of the previous year */
+
+.failures-sec {
+    padding: 100px 0;
+}
+
+.failure_content {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.failures-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failures-description {
+    color: #444343;
+    margin:22px 0 15px;
+
+}
+
+.failures-list {
+    color: #444343;
+
+}
+
+.failures-img {}
+
+.failures-sec ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: #16D887;
+}
+
+/* Styles for My Plans */
+
+.my-plan-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 55px;
+}
+.my-plan {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 123px;
+}
+
+.female-img {
+    max-width: 470px;
+    max-height: 550px;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 13px;
+}
+
+.plan-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*Styles for Watch section  */
+
+.hard {
+    padding: 100px 0;
+}
+
+.watch-content {
+    width: 90%;
+    max-width: 1000px;
+    max-height: 300px;
+    margin: 0 auto;
+    height: 50vh;
+    border-radius: 10px; 
+    background: linear-gradient(to right, #f15d22c9, transparent),url(../images/watch.png);
+    background-repeat: no-repeat;
+}
+
+.watch-text {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.watch-text>div h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.watch-text>div button {
+    background: #FFFFFF;
+    color: #F15B22;
+    margin-top: 24px;
+}
+
+/* goal section  */
+
+.goal-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.goal-description {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+}
+
+.goal-contain {
+    display: flex;
+    gap: 24px;
+}
+
+.goal {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin: 40px 0 130px;
+    padding: 10px 0;
+}
+
+.g-description {
+    color: #757575;
+    margin: 19px 30px 30px;
+}
+
+.g-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.g-icon {
+    margin: 30px 0 43px 30px;
+}
+
+/* Styles for Footer  */
+
+footer {
+    background: #151414;
+    padding: 60px 0;
+}
+
+footer p {
+    color: #fff;
+}
+
+.future-sec {
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+}
+
+.future-sec>div {
+    flex: 1;
+}
+
+.future-sec>div .Future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future-sec>div .future-desc {
+    color: #fff;
+    margin: 16px 0 24px;
+}
+
+.phone {
+    margin: 16px 0 30px;
+}
+
+.sub-box h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sub-box input {
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 15px 8px;
+    border: 1px solid #fff;
+    margin: 30px 0 16px;
+    border-radius: 8px;
+    color: #f3f3f3b6;
+    font-size: 18px;
+    outline: none;
+}
+
+.sub-box input::placeholder {
+    color: #f3f3f3cc;
+    font-size: 18px;
+}
+
+.sub-box button {
+    background: #fff;
+    color: #F15B22;
+}
